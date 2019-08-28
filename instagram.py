@@ -8,6 +8,9 @@ from sys import exit, version
 from lib.bruter import Bruter 
 from lib.session import Session 
 from argparse import ArgumentParser
+from bs4 import Beautifulsoap
+install module
+
 
 def _input(msg):
  return raw_input(msg).lower() if int(version.split()[0].split('.')[0]) == 2 else input(msg).lower()
